@@ -5,4 +5,6 @@
 ->props Drilling
 
 
--> useReducer hook ( -> basically use dispatch , reducerFunction , initialStage { count:0 } , 
+-> useReducer hook ( -> basically use state , dispatch({type:'increment'}) , reducerFunction , initialStage ->{ count:0 } , 
+
+const [state , dispatch]=useReducer(reducer , {count:0})
